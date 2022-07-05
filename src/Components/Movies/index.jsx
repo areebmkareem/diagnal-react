@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import InfiniteScroll from "react-infinite-scroll-component";
 
+
 import { getMovies } from "../../Store/Actions/Movies";
 import {
   selectMovieInfo,
@@ -54,7 +55,7 @@ export default function Movies() {
             <MovieCard
               key={index}
               title={item?.name}
-              cover={process.env.PUBLIC_URL + `/${item?.["poster-image"]}`}
+              cover={require(`../../Assets/${item?.["poster-image"]}`)}
             />
           ))}
         </InfiniteScroll>
