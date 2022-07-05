@@ -27,7 +27,7 @@ export const movieSlice = createSlice({
     searchMovies: (state, action) => {
       state.searchKey = action?.payload;
       state.currentMovies = state?.totalMovies?.filter((item) =>
-        item?.name?.toLowerCase().includes(action?.payload)
+        item?.name?.toLowerCase().includes(action?.payload?.toLowerCase())
       );
     },
   },
