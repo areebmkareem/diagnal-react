@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/87702126-44d8-44b3-8411-7543090c51f1/deploy-status)](https://app.netlify.com/sites/resplendent-salmiakki-baace3/deploys)
 
-[Demo](https://62c40fdd21c97400094210a5--resplendent-salmiakki-baace3.netlify.app/)
+[Demo](https://resplendent-salmiakki-baace3.netlify.app)
 
 In the project directory, you can run:
 
